@@ -14,6 +14,7 @@ struct LoginRegistrationButtonView: View {
     
     var body: some View {
         VStack{
+            
             Button {
                 signUpTapped.toggle()
             }label: {
@@ -41,17 +42,8 @@ struct LoginRegistrationButtonView: View {
                 .frame(height: 30)
             }
             
-            HStack{
-                
-                Text("Terms")
-            }
-            .offset(y: 250)
-            
-            
         }
         .buttonStyle(CustomButtonStyle())
-        
-        
     }
 }
 

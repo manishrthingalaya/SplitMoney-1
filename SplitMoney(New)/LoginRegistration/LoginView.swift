@@ -9,13 +9,54 @@ import SwiftUI
 
 struct LoginView: View {
     var body: some View {
-        VStack(){
-            
-            LogoView()
-                .offset(y: -50)
-            LoginRegistrationButtonView()
-                .offset(y: 100)
+
+        VStack {
+            Spacer()
+            VStack{
+                    
+                    LogoView()
+                      
+                    LoginRegistrationButtonView()
+                    .offset(y: 100)
+                    
+            }
+            Spacer()
+            HStack(spacing: -10){
+                Button{
+                    
+                }label: {
+                    Text("Terms")
+                        .padding()
+                        .foregroundColor(.black)
+                        .font(.system(size: 12))
+                        .underline()
+                }
+                Text("|")
+                    .font(.system(size: 12))
+                Button{
+                    
+                }label: {
+                    Text("Privacy Policy")
+                        .padding()
+                        .foregroundColor(.black)
+                        .font(.system(size: 12))
+                        .underline()
+                }
+                Text("|")
+                    .font(.system(size: 12))
+                Button{
+                    
+                }label: {
+                    Text("Contact us")
+                        .padding()
+                        .foregroundColor(.black)
+                        .font(.system(size: 12))
+                        .underline()
+                }
+                
+            }
         }
+        
     }
 }
 
