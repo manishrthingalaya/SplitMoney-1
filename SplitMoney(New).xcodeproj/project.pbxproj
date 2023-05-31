@@ -14,6 +14,11 @@
 		D7226F882A27196D001F84F5 /* SplitMoney_New_Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7226F872A27196D001F84F5 /* SplitMoney_New_Tests.swift */; };
 		D7226F922A27196D001F84F5 /* SplitMoney_New_UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7226F912A27196D001F84F5 /* SplitMoney_New_UITests.swift */; };
 		D7226F942A27196D001F84F5 /* SplitMoney_New_UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7226F932A27196D001F84F5 /* SplitMoney_New_UITestsLaunchTests.swift */; };
+		D73757302A271B07001EC90E /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D737572F2A271B07001EC90E /* LoginView.swift */; };
+		D73757332A271BEE001EC90E /* LogoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D73757322A271BEE001EC90E /* LogoView.swift */; };
+		D73757352A271DFD001EC90E /* LoginRegistrationButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D73757342A271DFD001EC90E /* LoginRegistrationButtonView.swift */; };
+		D73757382A273E29001EC90E /* CustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = D73757372A273E29001EC90E /* CustomButton.swift */; };
+		D737573A2A273F58001EC90E /* Color+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D73757392A273F58001EC90E /* Color+Extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +49,11 @@
 		D7226F8D2A27196D001F84F5 /* SplitMoney(New)UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SplitMoney(New)UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D7226F912A27196D001F84F5 /* SplitMoney_New_UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplitMoney_New_UITests.swift; sourceTree = "<group>"; };
 		D7226F932A27196D001F84F5 /* SplitMoney_New_UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplitMoney_New_UITestsLaunchTests.swift; sourceTree = "<group>"; };
+		D737572F2A271B07001EC90E /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		D73757322A271BEE001EC90E /* LogoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogoView.swift; sourceTree = "<group>"; };
+		D73757342A271DFD001EC90E /* LoginRegistrationButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginRegistrationButtonView.swift; sourceTree = "<group>"; };
+		D73757372A273E29001EC90E /* CustomButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButton.swift; sourceTree = "<group>"; };
+		D73757392A273F58001EC90E /* Color+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Extension.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +106,7 @@
 			children = (
 				D7226F762A27196B001F84F5 /* SplitMoney_New_App.swift */,
 				D7226F782A27196B001F84F5 /* ContentView.swift */,
+				D73757312A271B17001EC90E /* LoginRegistration */,
 				D7226F7A2A27196D001F84F5 /* Assets.xcassets */,
 				D7226F7C2A27196D001F84F5 /* Preview Content */,
 			);
@@ -125,6 +136,26 @@
 				D7226F932A27196D001F84F5 /* SplitMoney_New_UITestsLaunchTests.swift */,
 			);
 			path = "SplitMoney(New)UITests";
+			sourceTree = "<group>";
+		};
+		D73757312A271B17001EC90E /* LoginRegistration */ = {
+			isa = PBXGroup;
+			children = (
+				D73757362A273E0F001EC90E /* CustomViews */,
+				D737572F2A271B07001EC90E /* LoginView.swift */,
+				D73757322A271BEE001EC90E /* LogoView.swift */,
+				D73757342A271DFD001EC90E /* LoginRegistrationButtonView.swift */,
+			);
+			path = LoginRegistration;
+			sourceTree = "<group>";
+		};
+		D73757362A273E0F001EC90E /* CustomViews */ = {
+			isa = PBXGroup;
+			children = (
+				D73757372A273E29001EC90E /* CustomButton.swift */,
+				D73757392A273F58001EC90E /* Color+Extension.swift */,
+			);
+			path = CustomViews;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,6 +288,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D73757352A271DFD001EC90E /* LoginRegistrationButtonView.swift in Sources */,
+				D737573A2A273F58001EC90E /* Color+Extension.swift in Sources */,
+				D73757302A271B07001EC90E /* LoginView.swift in Sources */,
+				D73757382A273E29001EC90E /* CustomButton.swift in Sources */,
+				D73757332A271BEE001EC90E /* LogoView.swift in Sources */,
 				D7226F792A27196B001F84F5 /* ContentView.swift in Sources */,
 				D7226F772A27196B001F84F5 /* SplitMoney_New_App.swift in Sources */,
 			);

@@ -11,7 +11,7 @@ import SwiftUI
 struct SplitMoney_New_App: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            LoginView()
         }
     }
 }
