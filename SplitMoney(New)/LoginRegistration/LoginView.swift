@@ -8,6 +8,10 @@
 import SwiftUI
 
 struct LoginView: View {
+    
+    @State var modeName = "Light"
+    @State var Darkmode = true
+    @State var color = ColorScheme.light
     var body: some View {
 
         VStack {
@@ -27,29 +31,31 @@ struct LoginView: View {
                 }label: {
                     Text("Terms")
                         .padding()
-                        .foregroundColor(.black)
+                        .foregroundColor(Color("BlackAndWhiteText"))
                         .font(.system(size: 12))
                         .underline()
                 }
                 Text("|")
                     .font(.system(size: 12))
+                    .foregroundColor(Color("BlackAndWhiteText"))
                 Button{
                     
                 }label: {
                     Text("Privacy Policy")
                         .padding()
-                        .foregroundColor(.black)
+                        .foregroundColor(Color("BlackAndWhiteText"))
                         .font(.system(size: 12))
                         .underline()
                 }
                 Text("|")
                     .font(.system(size: 12))
+                    .foregroundColor(Color("BlackAndWhiteText"))
                 Button{
                     
                 }label: {
                     Text("Contact us")
                         .padding()
-                        .foregroundColor(.black)
+                        .foregroundColor(Color("BlackAndWhiteText"))
                         .font(.system(size: 12))
                         .underline()
                 }
